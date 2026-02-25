@@ -1,0 +1,4 @@
+interface:
+  display_name: "Интервью о продукте"
+  short_description: "Проведи интервью и собери ввод для PRD"
+  default_prompt: "Используй $product-interview, чтобы провести интервью о продукте и подготовить ввод для PRD."

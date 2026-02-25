@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "reddit-research": {
+      "type": "http",
+      "url": "https://reddit-research-mcp.fastmcp.app/mcp"
+    },
+    "hn-mcp": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@devabdultech/hn-mcp-server"],
+      "env": {}
+    },
+    "serpapi": {
+      "type": "http",
+      "url": "https://mcp.serpapi.com/YOUR_SERPAPI_KEY/mcp"
+    }
+  }
+}
