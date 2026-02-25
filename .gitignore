@@ -3,3 +3,4 @@
 *.env
 .env*
 secrets/
+.DS_Store
